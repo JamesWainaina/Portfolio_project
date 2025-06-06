@@ -4,6 +4,9 @@ import StarBackground from '../components/StarBackground'
 import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import About from '../components/About'
+import Skills from '../components/Skills'
+import ProjectSection from '../components/ProjectSection'
+import Contact from '../components/Contact'
 
 const Home = () => {
   return (
@@ -21,6 +24,9 @@ const Home = () => {
         <main>
           <HeroSection/>
           <About/>
+          <Skills/>
+          <ProjectSection/>
+          <Contact/>
         </main>
         {/* footer */}
     </div>
